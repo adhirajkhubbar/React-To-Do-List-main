@@ -1,0 +1,125 @@
+
+#container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 50px;
+  margin: 30px;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  outline: none;
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 3px;
+  height: 40px;
+  width: 350px;
+  margin-right: 15px;
+  background-color: rgb(248, 248, 248);
+  padding: 5px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 3px
+}
+
+input:focus{
+  border: 2px solid black;
+  box-shadow:none;
+}
+
+#input-container button {
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border: 2px solid rgb(53, 150, 105);
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 130, 98);
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(77, 77, 77);
+}
+
+#input-container button:hover{
+  background-color: rgb(53, 150, 105);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#input-container button:active{
+  scale: 1.1;
+  outline: none;
+}
+
+#tasks {
+  margin-top: 40px;
+  height: 100%;
+  padding: 3px;
+  width: 40%;
+  overflow-y: scroll;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#task{
+  width: 100%;
+  padding: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 4px;
+  background-color: rgb(235, 245, 252);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span{
+  font-size: 24px;
+}
+
+#edit-button{
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#delete-button{
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#edit-button:active{
+  background-color: blue;
+  color: white;
+}
+
+#delete-button:active{
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
